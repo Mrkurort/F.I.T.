@@ -1,0 +1,15 @@
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\bin\Debug\FIT.exe.config
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\bin\Debug\FIT.exe
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\bin\Debug\FIT.pdb
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\bin\Debug\Guna.UI2.dll
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.csproj.AssemblyReference.cache
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.csproj.SuggestedBindingRedirects.cache
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.Form1.resources
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.Properties.Resources.resources
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.csproj.GenerateResource.cache
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.csproj.CoreCompileInputs.cache
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.csproj.CopyComplete
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.exe
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.pdb
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.ClientsUC.resources
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.MainForm.resources
