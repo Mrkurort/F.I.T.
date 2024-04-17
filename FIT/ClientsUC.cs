@@ -76,7 +76,7 @@ namespace FIT
 
         private void ClientsUC_Load(object sender, EventArgs e)
         {
-            if(label12.Text == "нет")
+            if(label12.Text == "Нет")
             {
                 label12.ForeColor = Color.Red;
             }

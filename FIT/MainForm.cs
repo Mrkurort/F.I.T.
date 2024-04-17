@@ -28,6 +28,14 @@ namespace FIT
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            flowLayoutPanel1.Controls.Clear();
+            ClientsBut.FillColor = Color.LightCyan;
+            ClientsBut.ForeColor = Color.Black;
+            
+            ClientsAdd.Visible = true;
+            ClientsAdd.FillColor = Color.Transparent;
+            ClientsAdd.ForeColor = Color.White;
+
             SqlConnection sqlConnection = new SqlConnection(con);
             string chek = $"SELECT * FROM Client";
 
@@ -67,6 +75,12 @@ namespace FIT
             {
                 MessageBox.Show($"Ошибка : {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void ClientsAdd_Click(object sender, EventArgs e)
+        {
+            AddClient add = new AddClient();
+            add.ShowDialog();
         }
     }
 }

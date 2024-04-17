@@ -36,7 +36,8 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.ClientsBut = new Guna.UI2.WinForms.Guna2Button();
+            this.ClientsAdd = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -102,27 +103,47 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(196, 42);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(600, 400);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(600, 350);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // guna2Button1
+            // ClientsBut
             // 
-            this.guna2Button1.BorderColor = System.Drawing.Color.Gold;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.BorderThickness = 2;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(12, 42);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Клиенты";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.ClientsBut.BorderColor = System.Drawing.Color.Gold;
+            this.ClientsBut.BorderRadius = 10;
+            this.ClientsBut.BorderThickness = 2;
+            this.ClientsBut.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ClientsBut.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ClientsBut.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ClientsBut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ClientsBut.FillColor = System.Drawing.Color.Transparent;
+            this.ClientsBut.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.ClientsBut.ForeColor = System.Drawing.Color.White;
+            this.ClientsBut.Location = new System.Drawing.Point(12, 42);
+            this.ClientsBut.Name = "ClientsBut";
+            this.ClientsBut.Size = new System.Drawing.Size(180, 45);
+            this.ClientsBut.TabIndex = 2;
+            this.ClientsBut.Text = "Клиенты";
+            this.ClientsBut.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // ClientsAdd
+            // 
+            this.ClientsAdd.BorderColor = System.Drawing.Color.Gold;
+            this.ClientsAdd.BorderRadius = 10;
+            this.ClientsAdd.BorderThickness = 2;
+            this.ClientsAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ClientsAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ClientsAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ClientsAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ClientsAdd.FillColor = System.Drawing.Color.Transparent;
+            this.ClientsAdd.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.ClientsAdd.ForeColor = System.Drawing.Color.White;
+            this.ClientsAdd.Location = new System.Drawing.Point(616, 398);
+            this.ClientsAdd.Name = "ClientsAdd";
+            this.ClientsAdd.Size = new System.Drawing.Size(180, 45);
+            this.ClientsAdd.TabIndex = 3;
+            this.ClientsAdd.Text = "Добавить";
+            this.ClientsAdd.Visible = false;
+            this.ClientsAdd.Click += new System.EventHandler(this.ClientsAdd_Click);
             // 
             // MainForm
             // 
@@ -130,7 +151,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.ClientsAdd);
+            this.Controls.Add(this.ClientsBut);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -153,6 +175,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button ClientsBut;
+        private Guna.UI2.WinForms.Guna2Button ClientsAdd;
     }
 }

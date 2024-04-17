@@ -13,3 +13,4 @@ C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.exe
 C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.pdb
 C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.ClientsUC.resources
 C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.MainForm.resources
+C:\Users\0_311_9\source\repos\Variant9_F.I.T\FIT\obj\Debug\FIT.AddClient.resources
